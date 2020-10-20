@@ -13,6 +13,7 @@ import java.lang.reflect.Method;
 /**
  * spring will add class which has @RestControllerAdvice to RequestResponseBodyAdviceChain
  * all requst will reach here before JsonViewResponseBodyAdvice
+ * @Author: PowerQun
  */
 @RestControllerAdvice
 public class ResponseBodyResultAdvice implements ResponseBodyAdvice {

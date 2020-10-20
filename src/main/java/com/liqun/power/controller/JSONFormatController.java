@@ -6,7 +6,9 @@ import com.liqun.power.entity.Person;
 import com.liqun.power.util.Result;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-
+/**
+ *@Author: PowerQun
+ */
 @RestController
 public class JSONFormatController {
 

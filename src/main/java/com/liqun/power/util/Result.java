@@ -1,5 +1,8 @@
 package com.liqun.power.util;
 
+/**
+ * @Author: PowerQun
+ */
 public class Result<T> {
 
     public int code;
