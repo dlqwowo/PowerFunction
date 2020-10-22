@@ -9,3 +9,5 @@ PF-002   API 接口设计之 token、timestamp、sign 具体架构与实现
 PF-003   自定义actuator,  prometheus
 
 PF-004    请求日志切面
+
+PF-005    参数检验Validator
