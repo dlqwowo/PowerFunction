@@ -2,4 +2,17 @@ server:
     port: 9001
     servlet:
         context-path: /api
-
+logging:
+    level:
+        com:
+            zaxxer:
+                hikari: DEBUG
+#prometheus 监控 PF-003
+management:
+    endpoints:
+        web:
+            exposure:
+                include: prometheus,metrics,customer
+    server:
+        port: 9002
+        address: 127.0.0.1
